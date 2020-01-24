@@ -24,9 +24,8 @@ sections:
 - type: heading
   label: Docs
 - type: document
-  path: REAMDE.md
+  path: README.md
   label: README
-  match: "**/*"
   read_only: true
 upload_dir: static/images
 public_path: "/images"
