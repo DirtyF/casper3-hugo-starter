@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Content
 - type: directory
   path: content
   label: Pages
@@ -19,6 +21,13 @@ sections:
   label: Homepage
   create: all
   match: "**/*"
+- type: heading
+  label: Docs
+- type: document
+  path: REAMDE.md
+  label: README
+  match: "**/*"
+  read_only: true
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
